@@ -542,8 +542,9 @@ body {
   grid-gap: 30px;
   justify-content: center;
   align-items: center;
-  grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+  grid-template-columns: repeat(3, 1fr); /* Ensures 3 cards in one row */
 }
+
 .portfolio-card {
   max-width: 440px;
   height: 260px;
@@ -862,7 +863,6 @@ body {
   }
 }
 
-
 /* Nion  */
 
 /* Initial Hidden Popup Style */
@@ -921,5 +921,3 @@ body {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
 }
-
-
